@@ -6,7 +6,4 @@ import javax.ws.rs.core.Application;
 @ApplicationPath("getting-started")
 public class GettingStartedApplication extends Application {
 
-    public GettingStartedApplication() {
-
-    }
 }
