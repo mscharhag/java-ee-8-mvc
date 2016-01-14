@@ -5,7 +5,7 @@ This example project shows various ways of accessing request data in MVC Control
 
 It shows:
 
-## How to work with query parameters using `@QueryParam`.
+### How to work with query parameters using `@QueryParam`
 
 Explained in: [Java EE MVC: Working with Query Parameters][1].
 
@@ -15,7 +15,14 @@ Related classes:
 * [QueryParamsFieldController.java][3]
 
 
+### How to work with path parameters using `@Path` and `@PathParam`
+
+Related classes:
+
+* [PathParamsController.java][4]
+
 
 [1]: http://www.mscharhag.com/java-ee-mvc/query-parameters
 [2]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/QueryParamsController.java
 [3]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/QueryParamsFieldController.java
+[4]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/PathParamsController.java
