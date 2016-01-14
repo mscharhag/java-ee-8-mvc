@@ -5,12 +5,14 @@ This example project shows various ways of accessing request data in MVC Control
 
 It shows:
 
-* **How to work with query parameters using `@QueryParam`.**
-  Explained in: [Java EE MVC: Working with Query Parameters][1].
-  Related classes:
+## How to work with query parameters using `@QueryParam`.
 
-  * [QueryParamsController.java][2]
-  * [QueryParamsFieldController.java][3]
+Explained in: [Java EE MVC: Working with Query Parameters][1].
+
+Related classes:
+
+* [QueryParamsController.java][2]
+* [QueryParamsFieldController.java][3]
 
 
 
