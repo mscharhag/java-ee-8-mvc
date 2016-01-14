@@ -5,7 +5,7 @@ This example project shows various ways of accessing request data in MVC Control
 
 It shows:
 
-## How to work with query parameters using `@QueryParam`.
+#### How to work with query parameters using `@QueryParam`
 
 Explained in: [Java EE MVC: Working with Query Parameters][1].
 
