@@ -13,7 +13,7 @@ public class PathParamsController {
     @Inject
     Models models;
 
-    // http://localhost:8080/java-ee-8-request-parameters/request-parameters/path-params/date/2015/04
+    // e.g. /request-parameters/path-params/date/2015/04
     @GET
     @Path("/date/{year}/{month}")
     public String pathParamDate(@PathParam("year") int year, @PathParam("month") int month) {
@@ -21,7 +21,7 @@ public class PathParamsController {
         return "/WEB-INF/jsp/view.jsp";
     }
 
-    // http://localhost:8080/java-ee-8-request-parameters/request-parameters/path-params/roles/admin
+    // e.g. /request-parameters/path-params/roles/admin
     @GET
     @Path("/roles/{role}")
     public String pathParamUsers(@PathParam("role") Role role) {
@@ -29,7 +29,7 @@ public class PathParamsController {
         return "/WEB-INF/jsp/view.jsp";
     }
 
-    // http://localhost:8080/java-ee-8-request-parameters/request-parameters/path-params/users/123
+    // e.g. /request-parameters/path-params/users/123
     @GET
     @Path("/users/{id : \\d+}")
     public String findUserById(@PathParam("id") long id) {
@@ -37,7 +37,7 @@ public class PathParamsController {
         return "/WEB-INF/jsp/view.jsp";
     }
 
-    // http://localhost:8080/java-ee-8-request-parameters/request-parameters/path-params/users/john
+    // e.g. /request-parameters/path-params/users/john
     @GET
     @Path("/users/{name : [a-zA-Z]+}")
     public String findUserByName(@PathParam("name") String name) {
@@ -45,4 +45,15 @@ public class PathParamsController {
         return "/WEB-INF/jsp/view.jsp";
     }
 
+
+    @PathParam("category")
+    private String category;
+
+    // e.g. /request-parameters/path-params/category/radio
+    @GET
+    @Path("/categories/{category}")
+    public String findByCategory() {
+        this.models.put("text", "Path parameters: category = " + category);
+        return "/WEB-INF/jsp/view.jsp";
+    }
 }

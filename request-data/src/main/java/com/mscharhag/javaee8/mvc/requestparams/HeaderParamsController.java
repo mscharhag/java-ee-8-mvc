@@ -12,6 +12,7 @@ import javax.ws.rs.Path;
 @Path("header-params")
 public class HeaderParamsController {
 
+
     @Inject
     Models models;
 

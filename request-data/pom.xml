@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mscharhag.javaee8.mvc</groupId>
-    <artifactId>request-parameters</artifactId>
+    <artifactId>request-data</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -24,7 +24,7 @@
     </dependencies>
 
     <build>
-        <finalName>java-ee-8-request-parameters</finalName>
+        <finalName>java-ee-8-request-data</finalName>
     </build>
 
     <properties>
