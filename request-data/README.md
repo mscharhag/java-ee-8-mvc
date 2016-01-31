@@ -15,7 +15,7 @@ Related classes:
 * [QueryParamsFieldController.java][3]
 
 
-### How to work with path parameters using `@Path` and `@PathParam`
+#### How to work with path parameters using `@Path` and `@PathParam`
 
 Related classes:
 
