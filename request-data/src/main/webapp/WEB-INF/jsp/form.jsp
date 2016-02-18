@@ -6,7 +6,7 @@
     <title>Request Parameters</title>
   </head>
   <body>
-    <h1>${text}</h1>
+    <h1>${mvc.encoders.html(text)}</h1>
 
     <form action="bean" method="post">
       <label>ID:</label>
