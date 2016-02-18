@@ -24,7 +24,7 @@ public class ReturnTypesController {
     }
 
     @GET
-    @Path("return-string")
+    @Path("return-viewable")
     public Viewable returnViewable() {
         return new Viewable("/WEB-INF/jsp/hello.jsp");
     }
