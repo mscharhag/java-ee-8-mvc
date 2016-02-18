@@ -1,7 +1,7 @@
 package com.mscharhag.javaee8.mvc.controllers.product;
 
 import javax.inject.Inject;
-import javax.mvc.Controller;
+import javax.mvc.annotation.Controller;
 import javax.mvc.Models;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
