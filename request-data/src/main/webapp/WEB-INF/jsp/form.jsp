@@ -8,7 +8,7 @@
   <body>
     <h1>${text}</h1>
 
-    <form action="bean" method="post">
+    <form action="/java-ee-8-request-data/request-parameters/form-params-fields" method="post">
       <label>ID:</label>
       <input type="text" name="id" />
       <br />

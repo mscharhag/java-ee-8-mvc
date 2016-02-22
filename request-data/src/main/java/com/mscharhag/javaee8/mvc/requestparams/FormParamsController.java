@@ -30,11 +30,5 @@ public class FormParamsController {
         return "/WEB-INF/jsp/view.jsp";
     }
 
-    @POST
-    @Path("bean")
-    public String submitBean(@BeanParam User user) {
-        this.models.put("text", "User: " + user);
-        return "/WEB-INF/jsp/view.jsp";
-    }
 
 }
