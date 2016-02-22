@@ -17,6 +17,8 @@ Related classes:
 
 #### How to work with path parameters using `@Path` and `@PathParam`
 
+Explained in: [Java EE 8 MVC: Working with Path Parameters][5].
+
 Related classes:
 
 * [PathParamsController.java][4]
@@ -26,3 +28,4 @@ Related classes:
 [2]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/QueryParamsController.java
 [3]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/QueryParamsFieldController.java
 [4]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/PathParamsController.java
+[5]: http://www.mscharhag.com/java-ee-mvc/path-parameters
