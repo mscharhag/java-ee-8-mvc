@@ -34,6 +34,15 @@ Related classes:
 * [FormParamsFieldController.java][8]
 
 
+#### How to work with bean parameters using `@BeanParam`
+
+Explained in: [Java EE 8 MVC: Working with bean parameters][9]
+
+Related classes:
+
+* [BeanParamsController.java][10]
+
+
 [1]: http://www.mscharhag.com/java-ee-mvc/query-parameters
 [2]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/QueryParamsController.java
 [3]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/QueryParamsFieldController.java
@@ -42,3 +51,5 @@ Related classes:
 [6]: http://www.mscharhag.com/java-ee-mvc/form-parameters
 [7]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/FormParamsController.java
 [8]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/FormParamsFieldController.java
+[9]: http://www.mscharhag.com/java-ee-mvc/bean-parameters
+[10]: https://github.com/mscharhag/java-ee-8-mvc/blob/master/request-data/src/main/java/com/mscharhag/javaee8/mvc/requestparams/bean/BeanParamsController.java
