@@ -1,4 +1,6 @@
-package com.mscharhag.javaee8.mvc.requestparams;
+package com.mscharhag.javaee8.mvc.requestparams.bean;
+
+import com.mscharhag.javaee8.mvc.requestparams.Role;
 
 import javax.ws.rs.FormParam;
 
