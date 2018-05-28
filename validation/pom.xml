@@ -32,12 +32,12 @@
         <dependency>
             <groupId>javax.mvc</groupId>
             <artifactId>javax.mvc-api</artifactId>
-            <version>1.0-pr</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.mvc-spec.ozark</groupId>
             <artifactId>ozark-jersey</artifactId>
-            <version>1.0.0-m03</version>
+            <version>1.0.0-m04-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>

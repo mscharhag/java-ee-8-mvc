@@ -31,7 +31,6 @@ public class ContactController {
     }
 
     @POST
-    @ValidateOnExecution(type = ExecutableType.NONE)
     public String formSubmit(@Valid @BeanParam ContactMessage message) {
         if (bindingResult.isFailed()) {
             models.put("bindingResult", bindingResult);

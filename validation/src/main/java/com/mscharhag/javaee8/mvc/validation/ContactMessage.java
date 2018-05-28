@@ -18,6 +18,7 @@ public class ContactMessage {
     @MvcBinding
     @FormParam("email")
     @Email
+    @NotBlank
     private String email;
 
     @MvcBinding
