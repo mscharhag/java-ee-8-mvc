@@ -1,8 +1,8 @@
 package com.mscharhag.javaee8.mvc.requestparams;
 
 import javax.inject.Inject;
-import javax.mvc.Controller;
-import com.oracle.ozark.core.Models;
+import javax.mvc.annotation.Controller;
+import javax.mvc.Models;
 
 import javax.ws.rs.*;
 

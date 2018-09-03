@@ -1,7 +1,7 @@
 package com.mscharhag.javaee8.mvc.controllers;
 
-import javax.mvc.Controller;
-import javax.mvc.View;
+import javax.mvc.annotation.Controller;
+import javax.mvc.annotation.View;
 import javax.mvc.Viewable;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -24,7 +24,7 @@ public class ReturnTypesController {
     }
 
     @GET
-    @Path("return-string")
+    @Path("return-viewable")
     public Viewable returnViewable() {
         return new Viewable("/WEB-INF/jsp/hello.jsp");
     }

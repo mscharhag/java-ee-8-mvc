@@ -1,6 +1,6 @@
 package com.mscharhag.javaee8.mvc.controllers;
 
-import javax.mvc.Controller;
+import javax.mvc.annotation.Controller;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 

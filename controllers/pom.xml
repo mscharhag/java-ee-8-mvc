@@ -11,9 +11,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.oracle.ozark</groupId>
+			<groupId>org.glassfish.ozark</groupId>
             <artifactId>ozark</artifactId>
-            <version>1.0.0-m01</version>
+            <version>1.0.0-m02</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

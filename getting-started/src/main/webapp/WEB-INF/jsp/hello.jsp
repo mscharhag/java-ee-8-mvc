@@ -7,6 +7,6 @@
     </head>
     <body>
         <p>Getting started (hello.jsp)</p>
-        <h1>${text}</h1>
+        <h1>${mvc.encoders.html(text)}</h1>
     </body>
 </html>
